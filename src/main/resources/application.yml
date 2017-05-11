@@ -1,7 +1,3 @@
 spring:
   application:
     name: eureka
-  cloud:
-    config:
-      username: counect
-      password: counect
