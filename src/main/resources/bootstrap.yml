@@ -1,5 +1,8 @@
 spring:
   application:
     name: spring-eureka
+  cloud:
+    config:
+      uri: ${SPRING_CONFIG_URL}
 server:
   port: 8080
