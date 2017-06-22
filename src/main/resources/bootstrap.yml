@@ -1,8 +1,5 @@
+spring:
+  application:
+    name: spring-eureka
 server:
-  port: 8761
-eureka:
-  instance:
-    hostname: ${EUREKA_SERVER_HOSTNAME}
-  client:
-    serviceUrl:
-      defaultZone: ${EUREKA_SERVER_LIST}
+  port: 8080
