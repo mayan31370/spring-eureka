@@ -1,3 +1,10 @@
 spring:
   application:
     name: spring-eureka
+  cloud:
+    config:
+      uri: ${SPRING_CONFIG_URL}
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVER_URL}
