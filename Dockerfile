@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM counect_data/openjdk-8-jre-alpine-fixed-timezone
 ENV SPRING_CONFIG_URL http://localhost:8888/
 ENV SPRING_PROFILE test
 EXPOSE 8080
