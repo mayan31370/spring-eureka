@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/counect_data/openjdk-8-jre-alpine-fixed-timezone
+FROM mayan31370/openjdk-alpine-with-chinese-timezone:8-jre
 ENV SPRING_CONFIG_URL http://localhost:8888/
 ENV SPRING_PROFILE test
 EXPOSE 8080
