@@ -1,2 +1,2 @@
-# 阿里云仓库地址：
-registry.cn-hangzhou.aliyuncs.com/counect_data/spring-cloud-eureka
+# DockerHub
+https://hub.docker.com/r/mayan31370/spring-eureka/
