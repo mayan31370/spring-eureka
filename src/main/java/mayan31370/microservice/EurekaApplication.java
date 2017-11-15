@@ -1,4 +1,4 @@
-package com.counect.microservice;
+package mayan31370.microservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
